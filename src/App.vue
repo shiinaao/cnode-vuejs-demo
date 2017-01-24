@@ -18,6 +18,7 @@
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic');
   @import url('https://cdn.bootcss.com/normalize/5.0.0/normalize.min.css');
   .app-wrap {
+    /*overflow: hidden 加在 app-wrap 上竟然没有用*/
     position: relative;
     max-width: 750px;
     min-width: 320px;

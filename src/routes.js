@@ -1,5 +1,6 @@
 import main from './view/loader.vue'
 import list from './view/list.vue'
+import topic from './view/topic.vue'
 
 export default [
   {
@@ -11,5 +12,10 @@ export default [
     path: '/list',
     name: 'list',
     component: list
+  },
+  {
+    path: '/topic/:tid',
+    name: 'topic',
+    component: topic
   }
 ]
